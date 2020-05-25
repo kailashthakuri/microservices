@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3306/item_catalog?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: item-catalog-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8080
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    registry-fetch-interval-seconds: 5
+    region: default
+
+
+
+
