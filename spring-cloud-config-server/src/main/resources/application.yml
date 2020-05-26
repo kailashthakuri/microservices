@@ -4,4 +4,4 @@ spring:
     config:
       server:
         git:
-          uri: file:///E://git//microservices//configrepo
+          uri: file:///E:/git/microservices

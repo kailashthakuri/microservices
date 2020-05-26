@@ -19,10 +19,10 @@ public class UserInfoController {
     RestTemplate restTemplate;
 
 
-    @GetMapping("/")
-    public Collection<UserInfoDTO> getAllUser() {
-        restTemplate.getForObject("http://user-info-service/")
-    }
+//    @GetMapping("/")
+//    public Collection<UserInfoDTO> getAllUser() {
+//        restTemplate.getForObject("http://user-info-service/")
+//    }
 
 
 }
